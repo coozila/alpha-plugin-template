@@ -1,4 +1,4 @@
-"""This is a template for Auto-GPT plugins."""
+"""This is a template for alphaplugins."""
 import abc
 from typing import Any, Dict, List, Optional, Tuple, TypeVar, TypedDict
 
@@ -12,16 +12,16 @@ class Message(TypedDict):
     content: str
 
 
-class AutoGPTPluginTemplate(AbstractSingleton, metaclass=Singleton):
+class AlphaPluginTemplate(AbstractSingleton, metaclass=Singleton):
     """
-    This is a template for Auto-GPT plugins.
+    This is a template for alphaplugins.
     """
 
     def __init__(self):
         super().__init__()
-        self._name = "Auto-GPT-Plugin-Template"
+        self._name = "alpha-plugin-template"
         self._version = "0.1.0"
-        self._description = "This is a template for Auto-GPT plugins."
+        self._description = "This is a template for alphaplugins."
 
     @abc.abstractmethod
     def can_handle_on_response(self) -> bool:
