@@ -4,9 +4,9 @@ build-backend = "hatchling.build"
 
 [project]
 name = "alpha_plugin_template"
-version = "0.0.2"
+version = "0.1.0"
 authors = [
-  { name="coozila", email="34168009+BillSchumacher@users.noreply.github.com" },
+  { name="Torantulino", email="34168009+BillSchumacher@users.noreply.github.com" },
 ]
 description = "The template plugin for alpha."
 readme = "README.md"
