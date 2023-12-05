@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "alpha_plugin_template"
-version = "0.0.2"
+version = "1.0.1"
 authors = [
   { name="coozila", email="contact@coozila.com" },
 ]
